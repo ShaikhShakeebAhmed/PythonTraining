@@ -10,4 +10,4 @@ x = 1 #Number
 y = "1" #String
 z = 10.1 #float
 
-print(x,y,z)
+print(x,y,z) 
