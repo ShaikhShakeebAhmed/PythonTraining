@@ -1,3 +1,5 @@
+#if you do not have anu IDE for python use https://repl.it/
+
 #Importing and printing example
 import datetime
 
@@ -6,6 +8,7 @@ mynow = datetime.datetime.now()
 print("The Date time is " ,mynow)
 
 #Declaring Variables no need of type declarations as they are declared implicitly 
+
 x = 1 #Number
 y = "1" #String
 z = 10.1 #float
@@ -33,5 +36,18 @@ rainfall = [1 , 2.1 , "1" , temperatures]
 print(rainfall)
 
 #dir() and help() examples
-dir(list)
-help(list.append)
+
+print(dir(list))
+help(str.upper)
+print("shakeeb".upper())
+print("shakeeb".title())
+
+#getting a list of builtin functions and types everything available in your environment
+
+print(dir(__builtins__))
+
+#calculating avarage step by step
+
+studentGrade = [80 , 50 , 100]
+
+
