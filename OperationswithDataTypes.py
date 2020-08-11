@@ -23,4 +23,8 @@ workdays.append(weekend[0])
 
 print(workdays)
 
+#Slice examples and negative indexing
+
+print(workdays[2:5])
+print(workdays[-4:-1])
 
