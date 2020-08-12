@@ -1,2 +1,3 @@
-#import BasicDataStructures
-import OperationswithDataTypes
+#import A_BasicDataStructures
+#import B_OperationswithDataTypes
+import C_FunctionsAndConditionals
