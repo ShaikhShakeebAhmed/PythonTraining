@@ -25,3 +25,12 @@ randomDict = {"Shakeeb":10 , "Zubair":20 , "Nabeel":50 , "Adeel":100}
 
 print(meanWithDecision(randomDict))
 
+# AND & OR
+x = 1
+y = 1
+ 
+if x == 1 or y==2:
+    print("Yes")
+else:
+    print("No")
+
