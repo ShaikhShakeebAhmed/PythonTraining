@@ -18,3 +18,11 @@ takeInput = input("What is your name: ")
 print("Hello %s!" % takeInput.upper())
 #>> OR
 print(f"Hello {takeInput.upper()}!")
+#>> Multiple inputs in a string 
+
+FirstName = input("Whats your first Name:")
+MiddleName = input("Whats your middle Name:")
+LastName = input("Whats your last Name:")
+FamilyName = input("Whats your family Name:")
+
+print("Hello %s %s %s %s" % (FirstName , MiddleName ,  LastName , FamilyName))
