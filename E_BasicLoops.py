@@ -16,3 +16,19 @@ for x in colors:
 for x in colors:
     if type(x) == int and x > 50:
         print (x)
+
+#For loop on dictionaries
+phone_numbers = {"John Smith":"+37682929928","Marry Simpsons":"+423998200919"}
+
+for items in phone_numbers.items():
+  print(items)
+
+#>> Loop on Keys
+
+for items in phone_numbers.keys():
+  print(items)
+
+#>> Loop on values 
+
+for items in phone_numbers.values():
+  print(items)
