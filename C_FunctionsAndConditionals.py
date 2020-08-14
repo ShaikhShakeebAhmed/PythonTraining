@@ -43,5 +43,19 @@ elif x < 1:
     print("No")
 else:
   print("None") 
-    
+
+#Function with infinite number of arguments it returns a tuple
+
+def infiniteArgs(*args):
+  return(args)
+
+print(infiniteArgs(1,2,3,4,5,6))
+
+
+#Function with infinite number of key word arguments it returns a tuple
+
+def infiniteKargs(**Kwargs):
+  return(Kwargs)
+
+print(infiniteKargs(a=1,b=2,c=3,d=4,e=5,f=6))
 
