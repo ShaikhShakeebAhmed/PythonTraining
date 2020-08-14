@@ -37,3 +37,18 @@ for items in phone_numbers.values():
 
 for value in phone_numbers.values():
     print(value.replace('+','00'))
+
+#While loops
+UserInput = ''
+
+while UserInput != "shakeeb" :
+   UserInput= input("Enter your Name: ").lower()
+
+#>> while loop with continue and break
+UserInput2 = ''
+while True :
+  if  UserInput2 == "shakeeb":
+    break
+  else :
+     UserInput2= input("Enter your Name: ").lower()
+     continue
