@@ -32,3 +32,8 @@ for items in phone_numbers.keys():
 
 for items in phone_numbers.values():
   print(items)
+
+#>> Loop on values and replace 
+
+for value in phone_numbers.values():
+    print(value.replace('+','00'))
